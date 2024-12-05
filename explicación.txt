@@ -1,0 +1,26 @@
+Eliminación de variables relacionadas
+
+Balance: max_eth_ever, min_eth_ever
+Colateral: total_collateral_avg_eth
+Préstamos: borrow_amount_avg_eth
+Reembolsos: repay_amount_avg_eth
+Gas pagado: avg_gas_paid_per_tx_eth
+Transaciones riesgosas: risky_unique_contract_count, risky_first_last_tx_timestamp_diff
+
+Entrantes y salientes: withdraw_deposit_diff_if_positive_eth
+
+Otras métricas usadas para nuevas variables:
+wallet_address
+borrow_block_number
+incoming_tx_avg_eth
+outgoing_tx_avg_eth
+incoming_tx_sum_eth
+outgoing_tx_sum_eth
+borrow_timestamp
+max_risk_factor
+repay_count
+risk_factor_above_threshold_daily_count
+market_macd_macdfix
+market_macdsignal_macdfix
+
+outlier_wallet_address = '0x586e32930ac05127de429bd566eaa2758fcbd9bc'
